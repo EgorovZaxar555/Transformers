@@ -1,0 +1,50 @@
+.heading_title {
+    color: #86FFF8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.video__content {
+    background: rgba(10, 137, 146, 0.48);
+    width: 85%;
+    border-radius: 30px;
+    margin: 100px auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.video {
+    width: 300px;
+    padding: 10px;
+}
+
+.video iframe {
+    width: 100%;
+}
+
+
+
+
+
+/* Адаптивная верстка */
+@media (min-width: 1595px) and (max-width: 2500px) {
+    .video__content {
+        margin-top: 200px;
+        width: 70%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .video {
+        width: 400px;
+        padding: 20px;
+    }
+}
